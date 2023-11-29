@@ -9,7 +9,8 @@
 <body>
     <div class="container">
         <h1>Jogo da Velha</h1>
-        <table class="board" border="2"> 
+        
+        <table class="board" > 
             <tr>
                 <td class="square" onclick="play(this)"></td>
                 <td class="square" onclick="play(this)"></td>
@@ -25,6 +26,7 @@
                 <td class="square" onclick="play(this)"></td>
                 <td class="square" onclick="play(this)"></td>
             </tr>
+            <button onclick="restartGame()">Restart Game</button>
         </table>
         <div id="result"></div>
     </div>
